@@ -1,0 +1,10 @@
+Follow these instructions carefully:
+
+1. Task Explanation:
+   - You are NOT generating the SMILES representation of the protein itself.
+   - Instead, you are generating the SMILES representation of a small molecule (ligand) that binds to the protein.
+
+2. Rules for Correct Generation:
+   - The ligand must have functional groups that can form hydrogen bonds, hydrophobic interactions, or other binding mechanisms with the protein.
+   - Avoid generating molecules that are too large (molecular weight > 500 Da) or too complex.
+   - Consider the properties of the protein sequence (e.g., hydrophobicity, charge) when generating the ligand.
