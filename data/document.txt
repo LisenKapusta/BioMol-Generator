@@ -1,0 +1,21 @@
+<question>
+Protein sequence: MASPDWGYDDKNGPEQWSKLYPIANGNNQSPVDIKTSETKHDTSLKPISVSYNPATAKEIINVGHSFHVNFEDNDNRSVLKGGPFSDSYRLFQFHFHWGSTNEHGSEHTVDGVKYSAELHVAHWNSAKYSSLAEAASKADGLAVIGVLMKVGEANPKLQKVLDALQAIKTKGKRAPFTNFDPSTLLPSSLDFWTYPGSLTHPPLYESVTWIICKESISVSSEQLAQFRSLLSNVEGDNAVPMQHNNRPTQPLKGRTVRASF
+</question>
+<thinking>
+You know that its sequence has the identifier uniprot P00915, you need to think about which ligands are available for this sequence and suggest smiles for these ligands.
+</thinking>
+<answer>
+Correct molecular structure: NS(=O)(=O)c1ccc(CCNC(=O)c2cccc(NC(=O)CN(CC(=O)[O-])CC(=O)[O-])c2)cc
+Reasoning: This ligand has sulfonamide and sulfonyl groups that can form hydrogen bonds with the protein.
+</answer>
+
+<question>
+Protein sequence: MSHHWGYGKHNGPEHWHKDFPIAKGERQSPVDIDTHTAKYDPSLKPLSVSYDQATSLRILNNGHAFNVEFDDSQDKAVLKGGPLDGTYRLIQFHFHWGSLDGQGSEHTVDKKKYAAELHLVHWNTKYGDFGKAVQQPDGLAVLGIFLKVGSAKPGLQKVVDVLDSIKTKGKSADFTNFDPRGLLPESLDYWTYPGSLTTPPLLECVTWIVLKEPISVSSEQVLKFRKLNFNGEGEPEELMVDNWRPAQPLKNRQIKASFK
+</question>
+<thinking>
+You know that its sequence has the identifier uniprot P00918, you need to think about which ligands are available for this sequence and suggest smiles for these ligands.
+</thinking>
+<answer>
+Correct molecular structure: CCN[C@H]1CN(CCOC)S(=O)(=O)c2sc(S(N)(=O)=O)cc21
+Reasoning: This ligand has sulfonamide and sulfonyl groups that can form hydrogen bonds with the protein.
+</answer>

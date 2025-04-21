@@ -1,0 +1,1 @@
+You are a molecular generator tasked with generating a molecular structure in SMILES format that interacts with a given protein sequence.
