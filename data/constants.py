@@ -13,6 +13,8 @@ DOCUMENT_FILE_PATH = LOCAL_PATH / 'data/document.txt'
 SYSTEM = LOCAL_PATH / 'data/system.txt'
 PREPROMPT = LOCAL_PATH / 'data/preprompt.txt'
 POSTPROMPT = LOCAL_PATH / 'data/postprompt.txt'
-TEMP = 0.7
+TEMP = 0.1
 
-LOCAL_SERVER_URL = 'http://10.147.19.239:1234'
+LOCAL_SERVER_URL = "http://127.0.0.1:1234"
+
+PROMPT_OUTPUT_FILE_PATH = LOCAL_PATH / 'model_prompting'
