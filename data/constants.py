@@ -3,6 +3,10 @@ from pathlib import Path
 LOCAL_PATH = Path(__file__).parents[1]
 DATASET_PATH = LOCAL_PATH / 'data/dataset.parquet'
 
+TRAIN_DF_PATH = LOCAL_PATH / 'data/train_df.parquet'
+VALID_DF_PATH = LOCAL_PATH / 'data/valid_df.parquet'
+TEST_DF_PATH = LOCAL_PATH / 'data/test_df.parquet'
+
 LOCAL_MODELS_PATH = LOCAL_PATH / 'models'
 LOCAL_MODELS_PATH.mkdir(exist_ok=True, parents=True)
 
