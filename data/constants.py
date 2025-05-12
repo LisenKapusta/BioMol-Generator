@@ -20,5 +20,7 @@ POSTPROMPT = LOCAL_PATH / 'data/postprompt.txt'
 TEMP = 0.1
 
 LOCAL_SERVER_URL = "http://127.0.0.1:1234"
+# LOCAL_MODEL = "qwen2.5-coder-14b-instruct-"
+LOCAL_MODEL = 'qwen2.5-coder-14b-instruct'
 
 PROMPT_OUTPUT_FILE_PATH = LOCAL_PATH / 'model_prompting'
