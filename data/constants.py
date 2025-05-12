@@ -24,3 +24,6 @@ LOCAL_SERVER_URL = "http://127.0.0.1:1234"
 LOCAL_MODEL = 'qwen2.5-coder-14b-instruct'
 
 PROMPT_OUTPUT_FILE_PATH = LOCAL_PATH / 'model_prompting'
+T5_V2_OUTPUT_FILE_PATH = LOCAL_PATH / 'model_training' / 'test' / 't5_v2_test.csv'
+T5_V3_OUTPUT_FILE_PATH = LOCAL_PATH / 'model_training' / 'test' / 't5_v3_test.csv'
+
