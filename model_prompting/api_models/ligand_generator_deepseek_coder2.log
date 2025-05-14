@@ -1,0 +1,27 @@
+2025-05-14 16:29:14,864 - INFO - [196] [0] Raw Response: Correct molecular structure: CC1=CC(=O)NC(=O)N1C2=CC=C(C=C2)C(=O)NC3=CC=CC=C3
+2025-05-14 16:29:15,093 - INFO - [218] [0] Предсказанная аффинность: 4.23
+2025-05-14 16:29:20,410 - INFO - [196] [0] Raw Response: Correct molecular structure: C1=CC(=CC=C1C(=O)NC2=CC=C(C=C2)O
+2025-05-14 16:29:27,160 - INFO - [196] [0] Raw Response: Correct molecular structure: NC1=CC=C(C=C1)C(=O)NC2=CC=C(C=C2)O
+2025-05-14 16:29:27,200 - INFO - [218] [0] Предсказанная аффинность: 4.16
+2025-05-14 16:29:32,725 - INFO - [196] [0] Raw Response: Correct molecular structure: O=C(Nc1ccccc1)c2ccc(O)cc2
+2025-05-14 16:29:32,768 - INFO - [218] [0] Предсказанная аффинность: 4.17
+2025-05-14 16:29:39,572 - INFO - [196] [0] Raw Response: Correct molecular structure: O=C(Nc1ccc(cc1)C(=O)O)c2ccccc2
+2025-05-14 16:29:39,614 - INFO - [218] [0] Предсказанная аффинность: 4.18
+2025-05-14 16:29:46,905 - INFO - [196] [1] Raw Response: Correct molecular structure: O=C(NCC1=CC=CC=C1)C2=CC=C(O)C=C2
+2025-05-14 16:29:46,948 - INFO - [218] [1] Предсказанная аффинность: 4.31
+2025-05-14 16:29:53,461 - INFO - [196] [1] Raw Response: Correct molecular structure: O=C(NC1=CC=CC=C1)C2=CC=C(O)C=C2
+2025-05-14 16:29:53,503 - INFO - [218] [1] Предсказанная аффинность: 4.32
+2025-05-14 16:29:59,719 - INFO - [196] [1] Raw Response: Correct molecular structure: O=C(NC1=CC=CC=C1)C2=CC=C(O)C=C2
+2025-05-14 16:29:59,763 - INFO - [218] [1] Предсказанная аффинность: 4.32
+2025-05-14 16:30:06,108 - INFO - [196] [1] Raw Response: Correct molecular structure: C1=CC(=CC=C1C(=O)NCC2=CN=C3C=CC=CC3=N2)O
+2025-05-14 16:30:06,153 - INFO - [218] [1] Предсказанная аффинность: 4.31
+2025-05-14 16:30:13,339 - INFO - [196] [1] Raw Response: Correct molecular structure: O=C(NCC1=CC=CC=C1)C2=CC=CC=C2
+2025-05-14 16:30:13,384 - INFO - [218] [1] Предсказанная аффинность: 4.29
+2025-05-14 16:30:19,882 - INFO - [196] [2] Raw Response: Correct molecular structure: O=C(NCC1=CC=CC=C1)C2=CC=C(O)C=C2
+2025-05-14 16:30:19,928 - INFO - [218] [2] Предсказанная аффинность: 4.31
+2025-05-14 16:30:25,912 - INFO - [196] [2] Raw Response: Correct molecular structure: C1=CC(=C(C=C1C(=O)NCC2=CN=C(N2)C3=CC=C(C=C3)O)O)O
+2025-05-14 16:30:25,957 - INFO - [218] [2] Предсказанная аффинность: 4.37
+2025-05-14 16:30:32,178 - INFO - [196] [2] Raw Response: Correct molecular structure: C1=CC(=CC=C1C(=O)NC2=CC=C(C=C2)C(=O)O
+2025-05-14 16:30:39,231 - INFO - [196] [2] Raw Response: Correct molecular structure: C1=CC(=CC=C1C(=O)NC2=CC=C(C=C2)O
+2025-05-14 16:30:45,084 - INFO - [196] [2] Raw Response: Correct molecular structure: O=C(Nc1ccc(cc1)C(=O)Nc2ccccc2)O
+2025-05-14 16:30:45,124 - INFO - [218] [2] Предсказанная аффинность: 4.24

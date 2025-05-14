@@ -6,7 +6,7 @@ DATASET_PATH = LOCAL_PATH / 'data/dataset.parquet'
 
 TRAIN_DF_PATH = LOCAL_PATH / 'data/train_df.parquet'
 VALID_DF_PATH = LOCAL_PATH / 'data/valid_df.parquet'
-TEST_DF_PATH = LOCAL_PATH / 'data/test_df.parquet'
+TEST_DF_PATH = LOCAL_PATH / 'data' / 'test_df.parquet'
 
 LOCAL_MODELS_PATH = LOCAL_PATH / 'models'
 LOCAL_MODELS_PATH.mkdir(exist_ok=True, parents=True)
@@ -28,7 +28,8 @@ PROMPT_OUTPUT_FILE_PATH = LOCAL_PATH / 'model_prompting'
 T5_V2_OUTPUT_FILE_PATH = LOCAL_PATH / 'model_training' / 'test' / 't5_v2_test.csv'
 T5_V3_OUTPUT_FILE_PATH = LOCAL_PATH / 'model_training' / 'test' / 't5_v3_test.csv'
 
-API_KEY = os.getenv("API_KEY")
+# API_KEY = os.getenv("API_KEY")
+API_KEY = "sk-or-vv-296afe621cf9aaf6ef9f057aca893607d082e25d8b1ebd532664be7f67a59948"
 API_MODEL_DEEPSEEK_CODER = "deepseek/deepseek-coder" 
 DEEPSEEK_CODER_OUTPUT_FILE_PATH = LOCAL_PATH / "model_prompting/api_models/deepseek_coder_results.csv"
 

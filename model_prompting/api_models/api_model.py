@@ -150,7 +150,7 @@
 #         df.to_csv(output_file, index=False)
 #         print(f"💾 Результаты сохранены в {output_file}")
 #         logging.info(f"Результаты сохранены в {output_file}")
-
+##############
 import pandas as pd
 import requests
 import time
@@ -164,7 +164,7 @@ import os
 
 # Настройки логирования
 logging.basicConfig(
-    filename='ligand_generator.log',
+    filename='ligand_generator_deepseek_coder_2.log',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - [%(lineno)d] %(message)s'
 )
@@ -225,7 +225,7 @@ class LigandGeneratorWithAffinityControl:
 
     def send_request(self, prompt, max_retries=3, delay=5):
         """Отправка запроса к API VseGPT"""
-        url = "https://api.vsegpt.ru/v1/chat/completions "
+        url = "https://api.vsegpt.ru/v1/chat/completions"
 
         payload = {
             "model": self.model_id,
