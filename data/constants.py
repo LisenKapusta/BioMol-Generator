@@ -1,4 +1,5 @@
 from pathlib import Path
+import os
 
 LOCAL_PATH = Path(__file__).parents[1]
 DATASET_PATH = LOCAL_PATH / 'data/dataset.parquet'
@@ -27,3 +28,9 @@ PROMPT_OUTPUT_FILE_PATH = LOCAL_PATH / 'model_prompting'
 T5_V2_OUTPUT_FILE_PATH = LOCAL_PATH / 'model_training' / 'test' / 't5_v2_test.csv'
 T5_V3_OUTPUT_FILE_PATH = LOCAL_PATH / 'model_training' / 'test' / 't5_v3_test.csv'
 
+API_KEY = os.getenv("API_KEY")
+API_MODEL_DEEPSEEK_CODER = "deepseek/deepseek-coder" 
+DEEPSEEK_CODER_OUTPUT_FILE_PATH = LOCAL_PATH / "model_prompting/api_models/deepseek_coder_results.csv"
+
+ # model = "mistralai/mistral-large-2411"
+    # model = 'google/gemini-2.0-flash-001'
