@@ -9,13 +9,7 @@ conda create -n deepdta python=3.6
 conda activate deepdta
 
 Установить библиотеки
-pip install numpy==1.19.5
-pip install pandas
-pip install scikit-learn
-pip install tensorflow==1.14
-pip install keras==2.3.1
-pip install h5py==2.10.0
-pip install rdkit
+pip install numpy==1.19.5 pandas scikit-learn tensorflow==1.14 h5py==2.10.0 python-docx keras rdkit-pypi tensorflow matplotlib
 
 склонировать репозиторий
 git clone https://github.com/hkmshb/DeepDTA.git 

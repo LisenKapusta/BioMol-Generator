@@ -32,5 +32,8 @@ API_KEY = os.getenv("API_KEY")
 API_MODEL_DEEPSEEK_CODER = "deepseek/deepseek-coder" 
 DEEPSEEK_CODER_OUTPUT_FILE_PATH = LOCAL_PATH / "model_prompting/api_models/deepseek_coder_results.csv"
 
+DEEPDTA_MODEL_PATH = LOCAL_PATH / 'DL4H/DeepDTA/source/combined_davis.h5'
+LIGAND_PREDICTION_REPORT_PATH = LOCAL_PATH / 'check_results'
+
  # model = "mistralai/mistral-large-2411"
     # model = 'google/gemini-2.0-flash-001'
