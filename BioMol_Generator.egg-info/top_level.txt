@@ -1,0 +1,4 @@
+check_results
+data
+model_prompting
+model_training
