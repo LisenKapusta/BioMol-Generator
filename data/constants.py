@@ -26,8 +26,7 @@ LOCAL_MODEL = 'qwen2.5-coder-14b-instruct'
 
 LOCAL_MODEL_OUTPUT_FILES_PATH = LOCAL_PATH / 'data/local_model_results'
 
-# API_KEY = os.getenv("API_KEY")
-API_KEY = "sk-or-vv-296afe621cf9aaf6ef9f057aca893607d082e25d8b1ebd532664be7f67a59948"
+API_KEY = os.getenv("API_KEY")
 API_MODEL_DEEPSEEK_CODER = "deepseek/deepseek-coder" 
 DEEPSEEK_CODER_OUTPUT_FILE_PATH = LOCAL_PATH / "model_prompting/api_models/deepseek_coder_results.csv"
 API_OUTPUT_FILES_PATH = LOCAL_PATH / 'data/api_models_results'
