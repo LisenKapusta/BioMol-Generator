@@ -194,6 +194,6 @@ class MoleculeEvaluator:
         self.calculate_mcs_similarity()
         self.generate_summary()
         self.save_results()
-        self.plot_distributions()
+        # self.plot_distributions()
 
         return self.results, self.df
