@@ -36,6 +36,5 @@ FIRST_ANALYSIS_SMILES_PREDICTIONS_PATH = LOCAL_PATH / 'data' / 'check_predicted_
 
 DEEPDTA_MODEL_PATH = LOCAL_PATH / 'DL4H/DeepDTA/source/combined_davis.h5'
 LIGAND_PREDICTION_REPORT_PATH = LOCAL_PATH / 'check_results'
+BAPULM_RESULT = LOCAL_PATH / 'data' / 'analys' / 'bapulm_result'
 
- # model = "mistralai/mistral-large-2411"
-    # model = 'google/gemini-2.0-flash-001'
