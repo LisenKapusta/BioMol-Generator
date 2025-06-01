@@ -19,7 +19,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - [%(lineno)d] %(message)s'
 )
 
-class LigandGeneratorWithAffinityControl:
+class LigandGenerator:
     def __init__(self, api_key, model_id, system_path, preprompt_path, dta_model_path):
         self.api_key = api_key
         self.model_id = model_id
